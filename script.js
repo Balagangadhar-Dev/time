@@ -1,3 +1,8 @@
+/* Don't panic by looking at the code, It's just a JavaScript function
+   You already know how to create function in JavaScript function
+   If you forgot, look at the 6th line that's how we create the function in JS
+   follow line by line you will be able to understand it.
+*/
 function showTime(){
     var date = new Date();
     var h = date.getHours(); // 0 - 23
@@ -26,4 +31,5 @@ function showTime(){
     
 }
 
+// Here we are just calling the above function 
 showTime();

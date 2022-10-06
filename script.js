@@ -19,9 +19,15 @@ function showTime(){
         session = "PM";
     }
     
+
+    // Conditional (ternary) operator
+    // condition ? exprIfTrue : exprIfFalse
+    // learn more about Conditional (ternary) operator here: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+    // It's easy if you don't understand i will explain don't worry
     h = (h < 10) ? "0" + h : h;
     m = (m < 10) ? "0" + m : m;
     s = (s < 10) ? "0" + s : s;
+    
     
     var time = h + ":" + m + ":" + s + " " + session;
     document.getElementById("MyClockDisplay").innerText = time;
